@@ -77,9 +77,9 @@ export const heroData: Hero = {
         at <strong className="text-stone-100">University of Colorado at Boulder.</strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time , you can catch me drinking 1012312^2 coffee cup<strong className="text-stone-100"></strong>,
+        In my free time , you can catch me drinking 1012312^2 coffee cup, trying out <strong className="text-stone-100"> photography</strong>,
         Building open source <strong className="text-stone-100">projects</strong> or exploring beautiful{' '}
-        <strong className="text-stone-100">Boulder City</strong>.
+        <strong className="text-stone-100">Colorado</strong>.
       </p>
     </>
   ),
@@ -363,9 +363,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/akhileshappala'},
+  {label: 'Wordpress', Icon: StackOverflowIcon, href: 'https://akhileshappala.wordpress.com'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/akhilesh-appala/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/random_shutters/'},
+ 
 ];
