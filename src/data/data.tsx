@@ -77,9 +77,9 @@ export const heroData: Hero = {
         at <strong className="text-stone-100">University of Colorado at Boulder.</strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time , you can catch me drinking 1012312^2 coffee cup<strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time , you can catch me drinking 1012312^2 coffee cup<strong className="text-stone-100"></strong>,
+        Building open source <strong className="text-stone-100">projects</strong> or exploring beautiful{' '}
+        <strong className="text-stone-100">Boulder City</strong>.
       </p>
     </>
   ),
@@ -103,16 +103,15 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I primarily work with the front end framework like React, Angualar, NodeJS for web applications and ElectronJs ,
+  NWJS for Desktop applications. Have experience with CI/CD tools like jenkins for building pipelines to automate the build and deployment process.` ,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
+    {label: 'Location', text: 'Boulder, CO', Icon: MapIcon},
     {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Tech-Gadgets, Motorcycles, Cricket', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Colorado at Boulder', Icon: AcademicCapIcon},
+    {label: 'Ex-Employment', text: 'Thermo Fisher Scientific', Icon: OfficeBuildingIcon},
   ],
 };
 
